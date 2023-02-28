@@ -1,0 +1,43 @@
+body{
+    background: gray;
+}
+
+.link-bar {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px
+}
+
+.link-bar > .link > a{
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 4px 4px 5px 4px;
+    margin-top: 100%;
+}
+
+.link-bar > .link > a:hover{
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 4px 4px 5px 4px;
+    margin-top: 100%;
+}
+
+.lorem-contain {
+    display: grid;
+    grid-template-areas: 
+    'left center right'
+    'middle-left true-center middle-right'
+    'bl bc br';
+    grid-template-columns: 6% 88% 6%;
+    grid-template-rows: 50% 30% 20%;
+}
+
+.lorem-contain > .lorem {
+    grid-area: true-center;
+}
+
+.header-logo > h1{
+    text-indent: 2%;
+}
