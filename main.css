@@ -61,3 +61,11 @@ h1 {
 .landing > .heading1 > img {
   height: 50px;
 }
+
+.banner {
+  padding-top:
+  height: 80vh;
+  background: rebeccapurple;
+  transform-origin: 0;
+  transform: skewY(-5deg)
+}
