@@ -47,7 +47,6 @@ h1 {
 
 .landing > .heading1 {
   position: absolute;
-  top: 0;
   left: 0;
   z-index: 1;
   color: white;
@@ -59,17 +58,6 @@ h1 {
   flex-direction: column;
 }
 
-
-
-
-.header-bg {
-  position: absolute;
-  top: -60px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 100%;
-  width:
-  background-repeat: no-repeat;
-  background-size: 100%;
+.landing > .heading1 > img {
+  height: 50px;
 }
