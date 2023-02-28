@@ -23,6 +23,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Futuristic Armour';
 }
 
 
@@ -54,11 +55,12 @@ body {
   flex-direction: column;
 }
 
-
-h1 {
+@font-face {
   font-family: 'Space Age';
+    src: url("https://www.dafont.com/space-age.font");
 }
 
-p {
+@font-face {
   font-family: 'Futuristic Armour';
+    src: local("Futurist Armour.ttf");
 }
