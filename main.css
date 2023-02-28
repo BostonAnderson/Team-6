@@ -58,3 +58,7 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
+
+.landing > .heading1 > img {
+  height: 50px;
+}
