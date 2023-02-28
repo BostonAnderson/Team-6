@@ -58,3 +58,18 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
+
+
+
+
+.header-bg {
+  position: absolute;
+  top: -60px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width:
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
