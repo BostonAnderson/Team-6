@@ -62,10 +62,7 @@ h1 {
   height: 50px;
 }
 
-.banner {
-  padding-top:
-  height: 80vh;
-  background: rebeccapurple;
-  transform-origin: 0;
-  transform: skewY(-5deg)
+.iframe {
+  display: flex;
+  justify-content: center;
 }
